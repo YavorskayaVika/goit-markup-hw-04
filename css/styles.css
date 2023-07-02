@@ -354,7 +354,8 @@ ol {
       display: flex;
       justify-content: center;
       align-items: center;
-      color: var(--lightslate)
+      color: var(--lightslate);
+      fill: currentColor; 
 
 
     }

@@ -396,7 +396,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.32px;
-margin-bottom: 17px;
+margin-bottom: 16px;
 line-height: 1.5 ;
 letter-spacing: 0.02em;
 
@@ -486,14 +486,9 @@ height: 80px;
 .button-styls button:focus{
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.button-liink{
-  display: block;
-}
 
-.button-liink:hover,
-.button-liink:focus{ 
-box-shadow:    0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-}
+
+
 .text {
   background-color: var(--primari-text-color);
   color: var(--accent-two);

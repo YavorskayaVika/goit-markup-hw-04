@@ -279,10 +279,10 @@ ol {
 }
 .team {
   display: flex;
- margin-bottom: 120px;
- justify-content:center;
- gap: 24px;
+  margin-bottom: 120px;
+
 }
+
 .title-client{
   margin-bottom: 72px;
  text-align: center;
@@ -318,9 +318,15 @@ ol {
     background-color: var(--accent);
     border-radius: 50%;
   }
+  .social-link:hover,
+  .social-link:focus{
+    background-color: #404bbf; 
+    background-color: #404bbf; 
+  }
   .social-list{
     display: flex;
-    justify-content: space-between;
+     justify-content:center;
+    gap: 24px;
   }
   .section-customers{
     margin-top: 120px;
@@ -353,11 +359,9 @@ ol {
 
     }
     .icons-links:hover,
-    .icons-links:focus
-    {
+    .icons-links:focus {
       border-color:#404bbf;
-      color: #404bbf;
-
+      color: #404bbf; 
     }
 
     .customers-list{

@@ -402,9 +402,10 @@ align-items: baseline;
 flex-direction: column;
 width: 200px;
 height: 80px;
+
 } 
 .footer-advantages{
-  gap: 120px
+  margin-right:120px;
 }
 .icon-info-footer{
   display: flex;
@@ -430,10 +431,10 @@ height: 80px;
   background-color: #31d0aa;
  
 }
-/* .footer-box{
+.footer-box{
   display: flex;
-  align-items: baselin
-} */
+  align-items: baselin;
+}
 
  /* Portfolio */
 .all-images {

@@ -345,8 +345,7 @@ ol {
   
       display: inline-flex;
      width: calc((100% - 120px) / 6);
-     fill: currentColor; 
-   
+     fill: var(--lightslate);
     
     }
     .icons-links{
@@ -377,7 +376,7 @@ ol {
     }
     .icon-customers{
       color:currentcolor;
-      fill: var(--lightslate);
+     
      
       
     }

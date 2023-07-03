@@ -212,6 +212,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding-bottom: 8px;
 }
 .visually-hidden {
   position: absolute;
@@ -273,8 +274,6 @@ ol {
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
   text-transform: capitalize;
-  margin-bottom: 72px;
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 .team {
@@ -285,7 +284,8 @@ ol {
 }
 
 .title-client{
-  margin-bottom: 72px;
+  padding-top: 120px;
+  padding-bottom:72px;
  text-align: center;
  font-size: 36px;
  line-height: 1.11;
@@ -386,8 +386,7 @@ ol {
   color: var(--accent-two);
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-bottom: 16px; 
-}
+
 .footer-item {
   display: inline-block;
   margin-bottom: 16px;

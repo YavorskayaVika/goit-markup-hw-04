@@ -280,7 +280,7 @@ ol {
 .team {
   display: flex;
   margin-bottom: 120px;
-
+  gap: 24px;
 }
 
 .title-client{

@@ -345,6 +345,8 @@ ol {
   
       display: inline-flex;
      width: calc((100% - 120px) / 6);
+     fill: currentColor; 
+   
     
     }
     .icons-links{
@@ -356,8 +358,7 @@ ol {
       justify-content: center;
       align-items: center;
       color: var(--lightslate);
-      fill: currentColor; 
-
+  
 
     }
     .icons-links:hover,
@@ -369,6 +370,8 @@ ol {
     .customers-list{
       display: flex;
       gap: 24px;
+     
+      color: var(--lightslate);
 
 
     }

@@ -275,6 +275,8 @@ ol {
   color: var(--primari-text-color);
   text-transform: capitalize;
   padding-bottom: 120px;
+  padding-bottom: 120px;
+
 }
 .team {
   display: flex;
@@ -285,7 +287,7 @@ ol {
 
 .title-client{
   padding-top: 120px;
-  padding-bottom:72px;
+  margin-bottom:72px;
  text-align: center;
  font-size: 36px;
  line-height: 1.11;
@@ -386,6 +388,9 @@ ol {
   color: var(--accent-two);
   letter-spacing: 0.02em;
   max-width: 264px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  }
 
 .footer-item {
   display: inline-block;

@@ -281,6 +281,7 @@ ol {
   display: flex;
   margin-bottom: 120px;
   gap: 24px;
+
 }
 
 .title-client{
@@ -354,9 +355,9 @@ ol {
       display: flex;
       justify-content: center;
       align-items: center;
-      color:currentColor; 
-      fill:var(--lightslate);
-   
+      color: var(--lightslate);
+      fill: currentColor; 
+
 
     }
     .icons-links:hover,

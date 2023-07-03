@@ -345,7 +345,7 @@ ol {
   
       display: inline-flex;
      width: calc((100% - 120px) / 6);
-     fill: var(--lightslate);
+     
     
     }
     .icons-links{
@@ -356,7 +356,7 @@ ol {
       display: flex;
       justify-content: center;
       align-items: center;
-      color: var(--lightslate);
+      fill: var(--lightslate);
   
 
     }

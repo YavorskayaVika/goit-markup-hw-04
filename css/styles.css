@@ -357,7 +357,7 @@ ol {
       justify-content: center;
       align-items: center;
       color: var(--lightslate);
-      fill: var(--lightslate);
+
   
 
     }
@@ -374,7 +374,7 @@ ol {
 
     }
     .icon-customers{
-      color:currentcolor;
+      fill:currentcolor;
      
      
       

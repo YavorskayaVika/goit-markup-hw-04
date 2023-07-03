@@ -354,9 +354,9 @@ ol {
       display: flex;
       justify-content: center;
       align-items: center;
-      color: var(--lightslate);
-      fill: currentColor; 
-
+      color:currentColor; 
+      fill:var(--lightslate);
+   
 
     }
     .icons-links:hover,

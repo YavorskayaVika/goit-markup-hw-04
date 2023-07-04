@@ -12,7 +12,6 @@ body {
   color: #434455;
   margin: 0 auto;
   background-color: var(--white);
-  max-width: 1440px;
 }
 
 body ul {
@@ -137,6 +136,7 @@ ol {
   padding-bottom: 188px;
    margin: 0 auto;
    max-width: 1440px;
+   text-align: center;
  
    background-image: linear-gradient(rgba(46, 47, 66, 0.70),
  rgba(46, 47, 66, 0.70)),
@@ -157,6 +157,7 @@ ol {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
+  text-align: center;
 }
 .button {
   font-family: "Roboto", sans-serif;
@@ -182,8 +183,7 @@ ol {
 
 .our-goals {
   padding-top: 120px;
-  padding-bottom: 120px;
-}
+  }
 .button:hover,
 .button:focus {
   background-color: #404bbf;
@@ -212,7 +212,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .visually-hidden {
   position: absolute;
@@ -274,10 +274,9 @@ ol {
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 120px;
-
-}
+  margin-top: 120px;
+  margin-bottom: 72px;
+ }
 .team {
   display: flex;
   margin-bottom: 120px;
@@ -286,7 +285,6 @@ ol {
 }
 
 .title-client{
-  padding-top: 120px;
   margin-bottom:72px;
  text-align: center;
  font-size: 36px;
@@ -295,6 +293,10 @@ ol {
   }
 .item {
   flex-basis: calc((100% - 3 * 16px) / 3);
+}
+.clients{
+  margin-bottom: 120px;
+  margin-top: 120px;
 }
 .card-list {
   background-color: #ffffff;
@@ -305,7 +307,6 @@ ol {
 }
 .team-card {
   background-color: #f4f4fd;
-  padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
 }
@@ -388,8 +389,8 @@ ol {
   color: var(--accent-two);
   letter-spacing: 0.02em;
   max-width: 264px;
-  font-weight: 500;
-  margin-bottom: 16px;
+  font-weight: 400;
+
   }
 
 .footer-item {

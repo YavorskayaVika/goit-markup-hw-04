@@ -295,8 +295,8 @@ ol {
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .clients{
-  margin-bottom: 120px;
-  margin-top: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .card-list {
   background-color: #ffffff;

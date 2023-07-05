@@ -546,5 +546,18 @@ height: 80px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+/* Modal window */
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.modal{
 
+}
+.modal-btn{
 
+}
+.modal-icon{
+
+}
